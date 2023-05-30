@@ -21,7 +21,7 @@ class SILab2Test {
         List<User> users = new ArrayList<>();
 
         //test2
-        User user = new User(null, "123456", "VladimirKambovski");
+        User user = new User(null, "V1@345", "VladimirKambovski");
         assertFalse(SILab2.function(user, users));
     }
 
@@ -30,7 +30,7 @@ class SILab2Test {
         List<User> users = new ArrayList<>();
 
         //test3
-        User user = new User ("Kambovski1", "11 22 33", "vladimir.kambovski@students.finki.ukim.mk");
+        User user = new User ("Kambovski1", "V12 33", "vladimir.kambovski@students.finki.ukim.mk");
         User user1 = new User ("Kambovski1", "654321", "vladimir.kambovski@students.finki.ukim.mk");
         User user2 = new User ("Vladimir", "7654321", "vladimir.kambovski@students.finki.ukim.mk");
         User user3 = new User ("vladimir001", "11223344", "kambovski01@gmail.com");
